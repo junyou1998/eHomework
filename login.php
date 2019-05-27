@@ -29,7 +29,7 @@
       <span id="verification2">AB123</span>
       <br>
       <div id="notmember">
-        <span>還不是會員? <a href="">點我註冊</a></span>
+        <span>還不是會員? <a href="signup.php">點我註冊</a></span>
       </div>
 
       <br>
