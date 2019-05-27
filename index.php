@@ -8,20 +8,20 @@
 </head>
 
 <body>
-  <h1>home</h1>
-  <h3 id="time"></h3>
+  <h1>e-Homework</h1>
+  <img src="icon.png">
+  <h3 id=loading>頁面即將跳轉......</h3>
+  <p id="time"></p>
   <?php
   //header("Location: login.php", 3000);
-  header("refresh: 10; url=login.php");
+  header("refresh: 5; url=login.php");
   ?>
   <script>
-    var time = 10
-    console.log(time)
-    function count(){
-      time=time-1
-      console.log(time)
-    }
-    setInterval(count(), 1000);
+    var loading = "頁面即將跳轉"
+    setInterval(function() {
+      loading+="."
+      document.getElementById("loading").innerHTML = loading
+    }, 1000)
   </script>
 </body>
 

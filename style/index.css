@@ -5,6 +5,10 @@ html, body {
   text-align: center;
 }
 
-h1 {
-  color: white;
+* {
+  color: #fff;
+}
+
+img {
+  width: 20%;
 }
