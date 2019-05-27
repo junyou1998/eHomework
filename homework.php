@@ -68,8 +68,8 @@
     </div>
   </div>
   <div class="panel">
-    <i class="fas fa-book-open"></i>
-    <i class="fas fa-edit"></i>
+    <a href="homework.php"><i class="fas fa-book-open"></i></a>
+    <a href="upload.php"><i class="fas fa-edit"></i></a>
     <i class="fas fa-calendar-check"></i>
     <i class="fas fa-user"></i>
   </div>
