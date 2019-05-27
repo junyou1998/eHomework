@@ -3,9 +3,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>註冊</title>
-  <link rel="stylesheet" href="style/login.css">
-  <link rel="stylesheet" href="style/signup.css">
+  <title>教師登錄</title>
+  <link rel="stylesheet" href="style/login1.css">
   <link href="https://fonts.googleapis.com/css?family=Noto+Sans+TC:300,400,500,700,900&display=swap&subset=chinese-traditional" rel="stylesheet">
 </head>
 
@@ -17,15 +16,22 @@
     ，幫助學生與教師之間作業建立起橋梁
   </p>
   <div id="loginpage">
-    <form action="login.php" id="formm">
+    <div class="identity">
+      <a class="member" id="student" href="login.php">學生端</a>
+      <a class="member" id="teacher" href="">教師端</a>
+    </div>
+    <form action="">
       <input type="text" placeholder="使用者名稱">
       <br>
       <input type="text" placeholder="密碼">
       <br>
-      <input type="text" placeholder="再次輸入密碼">
+      <input type="text" id="verification" placeholder="驗證碼">
+      <span id="verification2">AB123</span>
       <br>
+      
+
       <br>
-      <input id="loginBtn" type="submit" value="註冊">
+      <input id="loginBtn" type="button" value="登陸">
     </form>
   </div>
 </body>

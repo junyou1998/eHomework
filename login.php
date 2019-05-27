@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>登錄</title>
+  <title>學生登錄</title>
   <link rel="stylesheet" href="style/login.css">
   <link href="https://fonts.googleapis.com/css?family=Noto+Sans+TC:300,400,500,700,900&display=swap&subset=chinese-traditional" rel="stylesheet">
 </head>
@@ -18,7 +18,7 @@
   <div id="loginpage">
     <div class="identity">
       <a class="member" id="student" href="">學生端</a>
-      <a class="member" id="teacher" href="">教師端</a>
+      <a class="member" id="teacher" href="login1.php">教師端</a>
     </div>
     <form action="">
       <input type="text" placeholder="使用者名稱">
